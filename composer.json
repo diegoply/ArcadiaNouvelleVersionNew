@@ -82,10 +82,10 @@
             "importmap:install": "symfony-cmd"
         },
         "post-install-cmd": [
-            "@auto-scripts"
+            "echo 'Running post-install-cmd...'"
         ],
         "post-update-cmd": [
-            "@auto-scripts"
+            "echo 'Running post-update-cmd...'"
         ]
     },
     "conflict": {
