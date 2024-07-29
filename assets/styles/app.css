@@ -26,6 +26,9 @@ body{
       background-color: #AF854F;
   }
   
+  .white{
+    color: white;
+  }
   
   .foret{
       color: #237823;
@@ -67,11 +70,11 @@ body{
   
   .buttonConnect{
       background-color: #237823;
-      color: white;
+        color: white;
       
       border-radius: 45px;
       font-size: small;
-      margin-right: 6rem;
+      margin-right: 1rem;
   }
   
   .buttonConnect2{
@@ -264,4 +267,16 @@ body{
       margin-top: 14rem;
     }
   
+    .hoverlien:hover{
+        color: white;
+    }
    
+    .hoverbutton:hover{
+        background-color: #AF854F;
+    
+    }
+
+    .hoverLienPhone:hover{
+        background-color: #AF854F;
+        color: white;
+    }
