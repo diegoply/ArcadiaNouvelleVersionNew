@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
     (function() {
         const headerContainer = $("#header-container");
         const desktopHeaderUrl = '/headerdesktop';
@@ -11,4 +11,4 @@ document.addEventListener("DOMContentLoaded", function() {
             headerContainer.load(phoneHeaderUrl);
         }
     })();
-});
+});*/

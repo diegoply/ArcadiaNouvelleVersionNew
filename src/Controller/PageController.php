@@ -16,7 +16,7 @@ class PageController extends AbstractController
         ]);
     }
 
-    #[Route('/headerdesktop', name: 'header_desktop')]
+  /*  #[Route('/headerdesktop', name: 'header_desktop')]
     public function headerDesktop(): Response
     {
         return $this->render('partials/_headerdesktop.html.twig');
@@ -26,5 +26,5 @@ class PageController extends AbstractController
     public function headerPhone(): Response
     {
         return $this->render('partials/_headerphone.html.twig');
-    }
+    }*/
 }
