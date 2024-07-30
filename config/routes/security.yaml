@@ -2,6 +2,4 @@ _security_logout:
     resource: security.route_loader.logout
     type: service
 
-    access_control:
-        - { path: ^/admin, roles: ROLE_ADMIN }
-        - { path: ^/, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+
