@@ -36,3 +36,4 @@ return [
         'type' => 'css',
     ],
 ];
+
